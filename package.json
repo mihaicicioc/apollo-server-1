@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node src/index.js"
   },
+  "homepage": "https://github.com/mihaicicioc/apollo-server-1",
   "author": "mihai.cicioc",
   "license": "ISC",
   "dependencies": {
