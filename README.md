@@ -18,6 +18,6 @@ npm start
 ```
 
 If everything is ok, you should see this in yous console output:
-> http://localhost:4000/
+> Server ready at http://localhost:4000/
 
 Open that url in your web browser.
