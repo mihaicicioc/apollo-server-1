@@ -1,14 +1,19 @@
 {
   "name": "apollo-server-1",
   "version": "1.0.0",
-  "description": "",
+  "description": "Apollo server demo",
+  "homepage": "https://github.com/mihaicicioc/apollo-server-1",
+  "author": {
+    "name": "mihaicicioc"
+  },
+  "license": "ISC",
+  "private": true,
   "main": "src/index.js",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "dockerBuild": "docker builder build --tag $npm_package_author_name/$npm_package_name  .",
+    "dockerRun": "docker container run --name $npm_package_name --publish 4000:4000 --detach $npm_package_author_name/$npm_package_name"
   },
-  "homepage": "https://github.com/mihaicicioc/apollo-server-1",
-  "author": "mihai.cicioc",
-  "license": "ISC",
   "dependencies": {
     "apollo-server": "^2.19.0",
     "uuid": "^7.0.3"
