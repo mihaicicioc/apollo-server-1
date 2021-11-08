@@ -15,7 +15,7 @@
     "dockerRun": "docker container run --name $npm_package_name --publish 4000:4000 --detach $npm_package_author_name/$npm_package_name"
   },
   "dependencies": {
-    "apollo-server": "^2.19.0",
+    "apollo-server": "^2.25.3",
     "uuid": "^7.0.3"
   },
   "devDependencies": {
